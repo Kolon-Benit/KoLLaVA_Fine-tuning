@@ -44,13 +44,13 @@ deepspeed ./llava/train/train_mem.py \
 
 ## 2. LoRA Merge
 Fine-tuning은 LoRA 기법으로 이루어지며, 생성된 LoRA 파일과 베이스 모델 간 Merge가 필요합니다.
-- [[Adapter]KoLLaVA.ipynb](https://github.com/ingwon/KoLLaVA/blob/main/%5BAdapter%5DKoLLaVA.ipynb)
-- [[Adapter]KoLLaVA.py](https://github.com/ingwon/KoLLaVA/blob/main/%5BAdapter%5DKoLLaVA.py)
+- [[Adapter]KoLLaVA.ipynb](https://github.com/Kolon-Benit/KoLLaVA/blob/main/%5BAdapter%5DKoLLaVA.ipynb)
+- [[Adapter]KoLLaVA.py](https://github.com/Kolon-Benit/KoLLaVA/blob/main/%5BAdapter%5DKoLLaVA.py)
 
 ## 3. Inference
 허깅페이스에 업로드 되거나, 학습한 모델을 추론하는 코드입니다.
-- [[Inference]KoLLaVA.ipynb](https://github.com/ingwon/KoLLaVA/blob/main/%5BInference%5DKoLLaVA.ipynb)
-- [[Inference]KoLLaVA.py](https://github.com/ingwon/KoLLaVA/blob/main/%5BInference%5DKoLLaVA.py)
+- [[Inference]KoLLaVA.ipynb](https://github.com/Kolon-Benit/KoLLaVA/blob/main/%5BInference%5DKoLLaVA.ipynb)
+- [[Inference]KoLLaVA.py](https://github.com/Kolon-Benit/KoLLaVA/blob/main/%5BInference%5DKoLLaVA.py)
   
 ## 출처 
 [KoLLaVA](https://github.com/tabtoyou/KoLLaVA.git) 를 기반으로 수정한 코드입니다.
