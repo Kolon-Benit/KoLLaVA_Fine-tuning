@@ -4,7 +4,7 @@ Vision LLM인 LLaVA에 대한 학습, 추론 관련 코드입니다.
 ## 1. KoLLaVA Fine-tuning 
 학습은 LLaVA 1.5 모델을 한국어 버전으로 학습한 tabtoyou/KoLLaVA-v1.5-Synatra-7b를 베이스 모델로 학습했습니다. \
 학습에는 LoRA 방법론이 사용되어 학습 후 반드시 Adapter를 수행하여 베이스 모델과 merge 해야 합니다. \
-학습은 KoLLaVA Path에서 다음의 코드로 수행했습니다. 학습 파라미터는 LLM 파라미터와 유사하니 확인 후 수정해주세요. \
+학습은 KoLLaVA Path에서 다음의 코드로 수행했습니다. 학습 파라미터는 LLM 파라미터와 유사하니 확인 후 수정해주세요. 
 
 deepspeed ./llava/train/train_mem.py \
     --lora_enable True --lora_r 128 --lora_alpha 256 --mm_projector_lr 0 \
