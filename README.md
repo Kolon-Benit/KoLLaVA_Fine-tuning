@@ -1,5 +1,5 @@
 # KoLLaVA
-Vision LLM인 LLaVA에 대한 학습, 추론 관련 코드입니다.
+Vision LLM인 KoLLaVA에 대한 학습, 추론 관련 코드입니다.
 
 ## 1. Fine-tuning 
 학습은 LLaVA 1.5 모델을 한국어 버전으로 학습한 tabtoyou/KoLLaVA-v1.5-Synatra-7b를 베이스 모델로 학습했습니다. \
